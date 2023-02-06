@@ -16,6 +16,7 @@
     background-attachment:fixed;
     margin: 0;
     padding: 0;
+   
 }
 
 
@@ -43,6 +44,7 @@ button{
     background-color:var(--bg--color);
     opacity: 0.6;
     padding-block: 2rem;
+   
    
 }
 
@@ -184,6 +186,8 @@ button{
     background-color: black;
     opacity: 0.6;
     border-radius: 0.5rem;
+    border: hidden;
+    color:white;
 }
 
 #but{
@@ -192,6 +196,7 @@ button{
     min-width: 100%;
    
 }
+
 
 #but button{
     width: 70%;
@@ -210,4 +215,17 @@ button{
 
     color: var(--font--color--2);
 }
+
+
+#email::placeholder,#password::placeholder{
+
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+#email:focus::placeholder,#password:focus::placeholder{
+    color: transparent
+}
+
 
